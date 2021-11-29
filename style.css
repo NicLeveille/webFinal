@@ -1,0 +1,137 @@
+.headborder{
+    height: 80px;
+    display: grid;
+    grid-template-columns: 15% 70%;
+    background-color: black;
+}
+.logoNHL{
+    height: 80px;
+    margin-left: 5%;
+    
+}
+.boutoncontainer{
+    color: white;
+    height: 80px;
+    font-size: 35px;
+    display: grid;
+    grid-template-columns:  20% 20% 20% 20% 20%;
+}
+.bouton{
+    width: 160px;
+    height: 65px;
+    text-align: center;
+    padding-top: 15px;   
+}
+.bouton:hover{
+    background-color:grey;
+    color:deepskyblue;
+}   
+.mainimages{
+    width:47%;
+    height: 820px;
+    left: 0%;
+    border-right: black 7px solid;
+    border-radius: 20px;
+}
+.mainpage{
+position: relative;
+margin-left: 50px;
+margin-right: 50px;
+}
+.textemain{
+    position: absolute;
+    bottom: 45%;
+    right: 33%;
+    font-size: 60px;
+    font-family: 'Shippori Antique B1', sans-serif;
+    text-align: center;
+    background-color: black;
+    width: 700px;
+    height: 120px;
+    border: 5px white solid;
+    border-radius: 50px;
+    color: white;
+}
+.fontmenus{
+    font-family: 'Bebas Neue', cursive;
+}
+.mainimageright{
+    width: 52%;
+    height: 820px;
+    margin-left: -4px;
+    border-radius: 20px;
+    border-left: 7px solid black;
+}
+.body1{
+    background-color:black;
+}
+.a {
+    display:block;
+    width:150px;
+    color:black;
+    background-color:white;
+    text-decoration:none;
+    text-align: left;
+    display: none;
+ }
+ .li {
+ 
+     float:left;
+     width: 300px;
+     margin-right: 50px;
+     font-size: 30px;
+     margin-left: 90px;
+     color: white;
+     border : black 3px solid;
+     border-radius: 10px;
+     background-color: black;
+     font-family: 'Bebas Neue', cursive;   
+     text-align: center;
+ }
+ a:hover {
+    color:white;
+    background-color:rgb(60, 84, 117);
+ } 
+ li:hover {
+    color:white;
+ } 
+
+ li:hover a {
+    display:block;
+    width: 300px;
+ } 
+ .menucontainer{
+     border: 2px solid black;
+     margin-top: 300px;
+     background-color: lightsteelblue;
+     height: 500px;
+     margin-left: 30px;
+     margin-right: 30px;
+     border-radius: 5px;
+ }
+ .body2{
+     background-color: lightgrey;
+ }
+ .texteequipe{
+     border: 2px solid black;
+     margin-top: 20px;
+     background-color: lightsteelblue;
+     height: 250px;
+     margin-left: 30px;
+     margin-right: 30px;
+     border-radius: 5px;
+     font-size: 30px;
+     width: 1837px;;
+     font-family: 'Shippori Antique B1', sans-serif;
+ }
+.ul
+{
+    list-style: none;
+}
+.teamLogo{
+    height: 40px;
+    margin-right: 50px;
+    width: 40px;
+}
+
+ 
