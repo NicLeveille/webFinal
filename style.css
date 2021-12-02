@@ -133,5 +133,16 @@ margin-right: 50px;
     margin-right: 50px;
     width: 40px;
 }
+.LienBordure:hover, .LienBordure, .LienBordure:focus, .LienBordure:active{
+    border:none;
+    outline:none;
+    text-decoration:none;
+    color:inherit;
+    -webkit-tap-highlight-color: white;
+
+}
+
+
+
 
  
