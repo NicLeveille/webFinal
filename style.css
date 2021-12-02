@@ -88,10 +88,6 @@ margin-right: 50px;
      font-family: 'Bebas Neue', cursive;   
      text-align: center;
  }
- a:hover {
-    color:white;
-    background-color:rgb(60, 84, 117);
- } 
  li:hover {
     color:white;
  } 
@@ -139,7 +135,14 @@ margin-right: 50px;
     text-decoration:none;
     color:inherit;
     -webkit-tap-highlight-color: white;
-
+}
+.ytvideo{
+    height: 500px;
+    width: 500px;
+    position: relative;
+    margin-top: 10px;
+    border: dimgray 3px solid;
+    border-radius: 10px;
 }
 
 
