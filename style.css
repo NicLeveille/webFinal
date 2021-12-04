@@ -64,6 +64,7 @@ margin-right: 50px;
 }
 .body1{
     background-color:black;
+    
 }
 .a {
     display:block;
@@ -221,6 +222,27 @@ margin-right: 50px;
     font-family: 'Shippori Antique B1', sans-serif;
     font-size: 30px;
 }
+.imgAbout{
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 5px;
+    right: 10%;
+    top: 19%;
+}
+.textePhotoMoi{
+    border: 2px solid black;
+    font-family: 'Shippori Antique B1', sans-serif;
+    position: absolute;
+    right: 10%;
+    bottom: 31%;
+    width: 593px;
+    height: 70px;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: rgb(99, 136, 170)
+}
+
 
 
 
