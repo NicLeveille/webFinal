@@ -303,7 +303,7 @@ margin-right: 50px;
     margin-top: 50px;
    
 }
-@media all and (max-width: 600px){
+@media screen and (max-width: 800px){
     .mainimages{
         width: 100%;
     }
