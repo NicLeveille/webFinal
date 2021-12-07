@@ -1,3 +1,4 @@
+
 .headborder{
     height: 80px;
     display: grid;
@@ -27,11 +28,12 @@
     color:deepskyblue;
 }   
 .mainimages{
+    
     width:47%;
     height: 820px;
     left: 0%;
     border-right: black 7px solid;
-    border-radius: 20px;
+    border-radius: 20px; 
 }
 .mainpage{
 position: relative;
@@ -239,6 +241,78 @@ margin-right: 50px;
     top: 15%;
     margin-left: 20px;
     border: solid 3px black;
+}
+.texteregle{
+    position: absolute;
+    margin-top: 20px; ;
+    left: 3%;
+    background-color: lightsteelblue;
+    height: 350px;
+    border-radius: 5px;
+    font-size: 30px;
+    width: 1100px;
+    font-family: 'Shippori Antique B1', sans-serif;
+    border: 2px solid black;
+    text-align: center;
+    height: 800px;
+}
+.texteHorsJeu{
+    position: absolute;
+    right: 5%;
+    font-family: 'Shippori Antique B1', sans-serif;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+    width: 550px;
+    margin-top: 20px; 
+    background-color: lightsteelblue;
+    border-radius: 5px;
+}
+.texteDegagement{
+    position: absolute;
+    right: 5%;
+    font-family: 'Shippori Antique B1', sans-serif;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+    width: 550px;
+    background-color: lightsteelblue;
+    border-radius: 5px;
+    bottom: 27%;
+}
+.imgHorsJeu{
+    width: 550px;
+    position: absolute;
+    right: 5%;
+    height: 200px;
+    top: 27%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.imgDegagement{
+    position: absolute;
+    width: 550px;
+    right: 5%;
+    bottom: 4%;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.audio{
+    margin-top: 50px;
+   
+}
+@media screen and (max-width: 600px){
+    .mainimages{
+        width: 100%;
+    }
+    .mainimageright{
+        width: 100%;
+    }
+    .textemain{
+       color: red;
+
+    }
 }
 
 
