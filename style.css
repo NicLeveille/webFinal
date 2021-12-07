@@ -1,3 +1,15 @@
+@media screen and (min-width: 380px){
+    .mainimages{
+        width: 100%;
+    }
+    .mainimageright{
+        width: 100%;
+    }
+    .textemain{
+       color: red;
+
+    }
+}
 
 .headborder{
     height: 80px;
@@ -301,18 +313,6 @@ margin-right: 50px;
 .audio{
     margin-top: 50px;
    
-}
-@media screen and (max-width: 600px){
-    .mainimages{
-        width: 100%;
-    }
-    .mainimageright{
-        width: 100%;
-    }
-    .textemain{
-       color: red;
-
-    }
 }
 
 
